@@ -9,7 +9,7 @@ public class CharacterStates : MonoBehaviour
 {
     [SerializeField] CharacterData_SO characterData;
     [SerializeField] AttackData_SO attackData;
-    [HideInInspector] public bool isCritical;
+    [HideInInspector] public bool isCritical;//是否暴击
     #region  Read from Data_SO
     public int MaxHealth
     {

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /// <summary>
-/// 角色攻击数据
+/// 角色攻击数据信息
 /// </summary>
 [CreateAssetMenu(fileName = "New Data", menuName = "Attack/Attack Data")]
 public class AttackData_SO : ScriptableObject
